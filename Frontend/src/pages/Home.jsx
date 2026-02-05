@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+    <div  data-aos="flip-right">
       {/* HERO */}
       <section className="max-w-7xl mx-auto px-6 pt-28 pb-20 text-center">
         <motion.h1
